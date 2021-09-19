@@ -39,7 +39,7 @@
         let email_data = $('#exampleInputEmail1').val()
         let passwd = $('#exampleInputPassword1').val()
         
-        let payload = {"email": email.stString(), "pass": passwd.toString()}
+        let payload = {"email": email_data.toString(), "pass": passwd.toString()}
         let url = 'http://my-rest/endpoint'
         
         $.ajax({
