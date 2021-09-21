@@ -19,7 +19,7 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
-    <button class="btn btn-primary" id="my-class">Submit</button>
+    <button class="btn btn-primary" id="my-button">Submit</button>
 </form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -38,7 +38,7 @@
     }
 
     $(document).ready(function () {
-        $('#my-class').on('click', function (event) {
+        $('#my-button').on('click', function (event) {
             event.preventDefault();
             let email_data = $('#exampleInputEmail1').val()
             let passwd = $('#exampleInputPassword1').val()
